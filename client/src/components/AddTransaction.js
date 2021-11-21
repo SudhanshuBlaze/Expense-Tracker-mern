@@ -5,14 +5,15 @@ export const AddTransaction = () => {
   const [text, setText] = useState("");
   const [amount, setAmount] = useState(0);
   const { addTransaction } = useContext(GlobalContext);
-  const handleSubmit = (e) => {
+  const handleSubmit = e => {
     e.preventDefault();
     const newTransaction = {
-      id: Math.floor(Math.random() * 10000000),
       text,
       amount: +amount, //parses string(which is number ->"55") into numeric(->55)
     };
     addTransaction(newTransaction);
+    setText("");
+    setAmount(0);
   };
 
   return (
@@ -24,7 +25,7 @@ export const AddTransaction = () => {
           <input
             type="text"
             value={text}
-            onChange={(e) => setText(e.target.value)}
+            onChange={e => setText(e.target.value)}
             placeholder="Enter text..."
           />
         </div>
@@ -36,7 +37,7 @@ export const AddTransaction = () => {
           <input
             type="number"
             value={amount}
-            onChange={(e) => setAmount(e.target.value)}
+            onChange={e => setAmount(e.target.value)}
             placeholder="Enter amount..."
           />
         </div>

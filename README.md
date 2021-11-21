@@ -1,15 +1,30 @@
-# Expense Tracker (React)
+# Expense Tracker in Reactjs
 
-Deployement: https://expense-tracker-reactweb.netlify.app
+The following web app uses the create-a-react boilerplate to base its code
 
-## Usage
+From there it is split up into serveral sections
 
-```
-npm install
+- public
+  - index.html - Gives the react app a place to render
+  - favicon.ico - icon on the tab bar
 
-# Run on http://localhost:3000
-npm start
+<br/>
 
-# Build for prod
-npm run build
-```
+- src | Heart of the ReactJS app
+  - components - folder filled with reactjs components
+  - context - Globalstate folder, used alongside hooks
+  - index.css - css file for index.js
+  - index.js - loads all our compoments and lays them out
+
+### What I learned
+
+- React Context API
+- useReducerhook.
+- implemented a REST API to maintain CRUD operations on mongoDB
+- Used axios to perform HTTP requests from client to backend server. Setup the MERN app for production.
+
+### Further Plans
+
+- Implement a login system
+- Dark mode?
+- Catergories of different payment types
