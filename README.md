@@ -1,6 +1,8 @@
-# Expense Tracker in Reactjs
+# [Expense Tracker in Reactjs](https://expense-tracker-database.herokuapp.com/)
 
-## DEMO:
+## DEMO: 
+[Test it out](https://expense-tracker-database.herokuapp.com/)
+
 https://user-images.githubusercontent.com/63813872/142753985-5c10a6b4-17fb-4fdd-a0fb-06e6d36117b6.mov
 
 
