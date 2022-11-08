@@ -1,7 +1,7 @@
-# [Expense Tracker in Reactjs](https://expense-tracker-database.herokuapp.com/)
+# [Expense Tracker in Reactjs](https://expense-tracker-mern.onrender.com/)
 
 ## DEMO: 
-[Test it out](https://expense-tracker-database.herokuapp.com/)
+[Test it out](https://expense-tracker-mern.onrender.com/)
 
 https://user-images.githubusercontent.com/63813872/142753985-5c10a6b4-17fb-4fdd-a0fb-06e6d36117b6.mov
 
